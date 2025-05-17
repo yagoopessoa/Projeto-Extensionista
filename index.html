@@ -1,25 +1,22 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/home.css">
-    <link rel="stylesheet" href="styles/menu.css">
-    <link rel="stylesheet" href="styles/testimonials.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <title>Cozinha Caseira</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Cozinha Paraibana</title>
 </head>
 <body>
     <header>
         <nav id="navbar">
-            <i class="fa-solid fa-utensils" id="nav_logo">.FOOD</i>
+            <i class="fa-solid fa-utensils" id="nav_logo">. food</i>
 
             <ul id="nav_list">
-                <li class="nav-item" active>
+                <li class="nav-item active">
                     <a href="#home">Início</a>
                 </li>
                 <li class="nav-item">
@@ -31,7 +28,7 @@
             </ul>
 
             <button class="btn-default">
-                Peça Aqui
+                Peça aqui
             </button>
 
             <button id="mobile_btn">
@@ -53,7 +50,7 @@
             </ul>
 
             <button class="btn-default">
-                Peça Aqui
+                Peça aqui
             </button>
         </div>
     </header>
@@ -64,10 +61,11 @@
             <div id="cta">
                 <h1 class="title">
                     O sabor que vai até
-                    <span> você</span>
+                    <span>você</span>
                 </h1>
+
                 <p class="description">
-                    OASKOPDPOKASDPOKDOKPSADOPKADSOKPASDPOKASDPOK —mudar depois
+                    Raízes brasileiras, asas globais: uma jornada gastronômica sem fronteiras.
                 </p>
 
                 <div id="cta_buttons">
@@ -75,13 +73,14 @@
                         Ver cardápio
                     </a>
 
-                    <a href="tel:+558392106-3800" id="phone_button">
+                    <a href="tel:+55555555555" id="phone_button">
                         <button class="btn-default">
                             <i class="fa-solid fa-phone"></i>
                         </button>
                         (83) 92106-3800
                     </a>
                 </div>
+
                 <div class="social-media-buttons">
                     <a href="">
                         <i class="fa-brands fa-whatsapp"></i>
@@ -95,71 +94,44 @@
                         <i class="fa-brands fa-facebook"></i>
                     </a>
                 </div>
-
             </div>
+
             <div id="banner">
-                <img src="/img/hero.png" alt="">
+                <img src="src/img/hero.png" alt="">
             </div>
         </section>
+
         <section id="menu">
             <h2 class="section-title">Cardápio</h2>
-            <h3 class="section-subtitle">Nossos pratos especiais</h3>
+            <h3 class="section-subtitle">Nossos pratos regionais</h3>
 
             <div id="dishes">
                 <div class="dish">
                     <div class="dish-heart">
                         <i class="fa-solid fa-heart"></i>
                     </div>
-                    <img src="/img/dish.png" class="dish-image" alt="">
+
+                    <img src="src/img/dish.png" class="dish-image" alt="">
+
                     <h3 class="dish-title">
-                        ASOPDKASOPDKOPASDPOKASDKOPASDKOPSADOPKSAD -- mudar depois
+                        Lamen Paraibano
                     </h3>
 
                     <span class="dish-description">
-                        ASKOSOKADPKOPASDOPKASDPOKSADOPKSADOPKASD
+                        Prato tipicamente japonês onde encontra ingredientes e o sabor típico da culinária regional
                     </span>
 
-                    <div class="dish rate">
+                    <div class="dish-rate">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
+                        <span>(75+)</span>
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$ 20,00</h4>
-                        <button class="btn-default">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </button>
-                    </div>
-                </div>
-                
-                <div class="dish">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-                    <img src="/img/dish2.png" class="dish-image" alt="">
-                    <h3 class="dish-title">
-                        ASOPDKASOPDKOPASDPOKASDKOPASDKOPSADOPKSAD -- mudar depois
-                    </h3>
-
-                    <span class="dish-description">
-                        ASKOSOKADPKOPASDOPKASDPOKSADOPKSADOPKASD
-                    </span>
-
-                    <div class="dish rate">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
-                    </div>
-
-                    <div class="dish-price">
-                        <h4>R$ 20,00</h4>
+                        <h4>R$80,00</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>
@@ -170,26 +142,28 @@
                     <div class="dish-heart">
                         <i class="fa-solid fa-heart"></i>
                     </div>
-                    <img src="/img/dish3.png" class="dish-image" alt="">
+
+                    <img src="src/img/dish2.png" class="dish-image" alt="">
+
                     <h3 class="dish-title">
-                        ASOPDKASOPDKOPASDPOKASDKOPASDKOPSADOPKSAD -- mudar depois
+                        Sandwiche de Frango
                     </h3>
 
                     <span class="dish-description">
-                        ASKOSOKADPKOPASDOPKASDPOKSADOPKSADOPKASD
+                        Sanduíche tradicional com frango, bacon ao molho Ranch
                     </span>
 
-                    <div class="dish rate">
+                    <div class="dish-rate">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
+                        <span>(102+)</span>
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$ 20,00</h4>
+                        <h4>R$20,00</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>
@@ -200,38 +174,71 @@
                     <div class="dish-heart">
                         <i class="fa-solid fa-heart"></i>
                     </div>
-                    <img src="/img/dish4.png" class="dish-image" alt="">
+
+                    <img src="src/img/dish3.png" class="dish-image" alt="">
+
                     <h3 class="dish-title">
-                        ASOPDKASOPDKOPASDPOKASDKOPASDKOPSADOPKSAD -- mudar depois
+                        Sonho Tropical
                     </h3>
 
                     <span class="dish-description">
-                        ASKOSOKADPKOPASDOPKASDPOKSADOPKSADOPKASD
+                        Uma salada de frutas exótica com kiwi, morango, amendoim e coco ralado.
                     </span>
 
-                    <div class="dish rate">
+                    <div class="dish-rate">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
+                        <span>(42+)</span>
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$ 20,00</h4>
+                        <h4>R$60,00</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>
                     </div>
                 </div>
-                
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/img/dish4.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Yakisoba Nordestina
+                    </h3>
+
+                    <span class="dish-description">
+                        Uma prato feito com elementos nordestino e técnica japonesa
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(427+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$74,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
             </div>
-
         </section>
 
         <section id="testimonials">
-            <img src="/img/chef.png" id="testimonial_chef" alt="">
+            <img src="src/img/chef.png" id="testimonial_chef" alt="">
+
             <div id="testimonials_content">
                 <h2 class="section-title">
                     Depoimentos
@@ -242,10 +249,11 @@
 
                 <div id="feedbacks">
                     <div class="feedback">
-                        <img src="/img/avatar.png" class="feedback-avatar" alt="">
+                        <img src="src/img/avatar2.png" class="feedback-avatar" alt="">
+
                         <div class="feedback-content">
                             <p>
-                                Maria Pereira da Silva Pedrosa
+                                Maria da Penha Pereira Costa
                                 <span>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
@@ -255,16 +263,17 @@
                                 </span>
                             </p>
                             <p>
-                                POASKDASKDOASOPD -- mudar
+                                "O .FOOD é uma verdadeira jornada gastronômica! Fui com um grupo de amigos e cada um pediu um prato diferente, todos com aquela mistura incrível de sabores locais e internacionais. O meu favorito foi o Lamen Paraibano, com ingredientes tipicamente tropical, simplesmente divino! A apresentação dos pratos é um show à parte, e o ambiente é perfeito para um jantar especial. Recomendo muito para quem quer sair da rotina e experimentar algo novo e surpreendente."
                             </p>
                         </div>
                     </div>
 
                     <div class="feedback">
-                        <img src="/img/avatar.png" class="feedback-avatar" alt="">
+                        <img src="src/img/avatar1.png" class="feedback-avatar" alt="">
+
                         <div class="feedback-content">
                             <p>
-                                Maria Pereira da Silva Pedrosa
+                                Rafael dos Santos
                                 <span>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
@@ -274,21 +283,42 @@
                                 </span>
                             </p>
                             <p>
-                                POASKDASKDOASOPD -- mudar
+                                "Uma explosão de sabores! O .FOOD me surpreendeu do início ao fim. A mistura da culinária local com influências globais é simplesmente genial. Experimentei o acarajé com toque de curry e o ceviche de manga com pimenta biquinho, e ambos estavam divinos. O ambiente é acolhedor e o atendimento impecável. Definitivamente, um lugar para voltar e explorar novos sabores!"
                             </p>
                         </div>
                     </div>
-
-
                 </div>
 
                 <button class="btn-default">
-                    Ver mais Avaliações
+                    Ver mais avaliações
                 </button>
             </div>
         </section>
     </main>
 
-    <script src="/javaScript/script.js"></script>
+    <footer>
+        <img src="src/img/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2025 .Food — Culinária Regional
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="src/javascript/script.js"></script>
 </body>
 </html>
